@@ -34,15 +34,21 @@ body {
 }
 #textContainers {
     margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    display: flex;
 }
 .container {
     padding: 20px;
     margin: 7px;
-    width: 310px;
-    float: left;
+    width: 300px;
     background-color: white;
     border: 2px solid #DAA520;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .container h2 {
     font-family: 'Raleway' , sans-serif;
@@ -54,6 +60,7 @@ body {
 }
 .moreinfo {
     margin: 10px 0;
+    display: flex;
 }
 .moreinfo a {
     font-family: 'Raleway' , sans-serif;
@@ -63,7 +70,6 @@ body {
     border: 2px solid #DAA520;
     border-radius: 5px;
     text-align: center;
-    display: inline-block;
     padding: 5px;
     width: 300px;
 }
