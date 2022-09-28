@@ -6,25 +6,31 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 body {
     background-color: #f8f8ee;
 }
-#nav {
+.navbar {
     background-color: #DAA520;
     font-family: 'Raleway' , sans-serif;
     padding: 15px;
     margin-bottom: 35px;
     height: 20px;
+    display: flex;
+    justify-content: space-between;
 }
-#nav a {
+.logo {
+    color: white;
+    font-size: 18px;
+    padding: 0 25px;
+}
+.nav-links {
+    display: flex;
+}
+.nav-item {
+    list-style: none;
+}
+.nav-item a {
     text-decoration: none;
     color: white;
     padding: 0 20px;
     font-size: 18px;
-    float: right;
-}
-.navname {
-    color: white;
-    font-size: 18px;
-    float: left;
-    padding: 0 25px;
 }
 #textContainers {
     margin: 0 auto;
